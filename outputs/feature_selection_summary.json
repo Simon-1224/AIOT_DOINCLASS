@@ -1,0 +1,10 @@
+{
+  "original_test_mse": 82010363.04430111,
+  "selection": "Training-only 5-fold mean MSE",
+  "split_seed": 42,
+  "cv_seed": 42,
+  "train_rows": 40,
+  "test_rows": 10,
+  "best_features": "R&D Spend + Administration + Marketing Spend",
+  "best_test_mse": 80926321.2229516
+}

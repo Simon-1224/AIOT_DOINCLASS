@@ -1,0 +1,36 @@
+{
+  "source_url": "https://raw.githubusercontent.com/SantiagoMorenoV/50-Startups-Multiple-Reg/main/50_Startups.csv",
+  "sha256": "722e650044afa9b7c2c54fe690245b6cd64b684c6c6e2ac3e1b7201fb52416c8",
+  "rows": 50,
+  "test_size": 0.2,
+  "random_state": 42,
+  "python": "3.13.15",
+  "sklearn": "1.9.1",
+  "pandas": "3.0.6",
+  "numpy": "2.5.4",
+  "test_metrics": {
+    "LinearRegression": {
+      "MSE": 82010363.04430108,
+      "MAE": 6961.477813252383,
+      "RMSE": 9055.95732345847,
+      "R2": 0.8987266414328636
+    },
+    "MeanBaseline": {
+      "MSE": 1140864891.3968468,
+      "MAE": 25295.290200000007,
+      "RMSE": 33776.691540126405,
+      "R2": -0.40883682176454883
+    }
+  },
+  "cv_mean": {
+    "MAE": 7425.88152534815,
+    "RMSE": 9550.67610568526,
+    "R2": 0.9340039511035654
+  },
+  "cv_std": {
+    "MAE": 1977.0158289286683,
+    "RMSE": 3282.684984709562,
+    "R2": 0.03611412584299734
+  },
+  "example_prediction": 132841.2220421545
+}
