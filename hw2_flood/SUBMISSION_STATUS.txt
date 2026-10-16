@@ -1,0 +1,4 @@
+Student: 5115056023
+Status: INCOMPLETE_EVIDENCE_DO_NOT_SUBMIT_AS_COMPLETE
+Pending: 完整原始 GPT 對話 PDF 與本人完整性確認
+See README.md and evidence instructions.

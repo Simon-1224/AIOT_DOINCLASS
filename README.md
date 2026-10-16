@@ -1,3 +1,12 @@
+## HW2 洪水預測（5115056023）
+
+- 新版互動成品：https://simon-1224.github.io/AIOT_DOINCLASS/hw2/
+- 中文分析報告（不含私人對話）：https://simon-1224.github.io/AIOT_DOINCLASS/hw2/report.pdf
+- 主程式、Notebook、資料來源與流程：hw2_flood/README.md
+- 資料為50,000筆、20特徵；完整模型接近確定線性生成公式，不能解讀為真實洪災預測能力。
+- NotebookLM摘要已由學生提供；完整GPT對話PDF仍待補入本機繳交包。
+- 下方保留原本50 Startups作業，舊網站首頁不變。
+
 # 50 Startups 互動作業
 
 網站：https://Simon-1224.github.io/AIOT_DOINCLASS/
@@ -68,4 +77,5 @@ numeric__Marketing Spend     0.029855
 ![測試診斷](outputs/test_diagnostics.png)
 
 資料來源：[公開 CSV 鏡像](https://raw.githubusercontent.com/SantiagoMorenoV/50-Startups-Multiple-Reg/main/50_Startups.csv)；[Kaggle 教學頁](https://www.kaggle.com/code/amrut11/multiple-linear-regression-on-50-startups-dataset)。SHA-256：`722e650044afa9b7c2c54fe690245b6cd64b684c6c6e2ac3e1b7201fb52416c8`。
+
 

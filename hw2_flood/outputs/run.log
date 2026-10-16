@@ -1,0 +1,141 @@
+Mean baseline: CV MSE=0.002518681
+OLS full: CV MSE=0.000000000
+Ridge alpha=0.01: CV MSE=0.000000000
+Ridge alpha=0.1: CV MSE=0.000000000
+Ridge alpha=1: CV MSE=0.000000000
+Ridge alpha=10: CV MSE=0.000000000
+Ridge alpha=100: CV MSE=0.000000043
+Ridge alpha=1000: CV MSE=0.000003974
+Lasso alpha=1e-06: CV MSE=0.000000000
+Lasso alpha=1e-05: CV MSE=0.000000002
+Lasso alpha=0.0001: CV MSE=0.000000199
+Lasso alpha=0.001: CV MSE=0.000019884
+Lasso alpha=0.01: CV MSE=0.001988448
+SelectKBest k=14: CV MSE=0.000756970
+SelectKBest k=16: CV MSE=0.000499833
+SelectKBest k=18: CV MSE=0.000249768
+SelectKBest k=20: CV MSE=0.000000000
+RFE k=14: CV MSE=0.000749946
+RFE k=16: CV MSE=0.000503594
+RFE k=18: CV MSE=0.000252301
+RFE k=20: CV MSE=0.000000000
+Forward SFS k=14: CV MSE=0.000749108
+Forward SFS k=16: CV MSE=0.000501234
+Forward SFS k=18: CV MSE=0.000249357
+Forward SFS k=20: CV MSE=0.000000000
+Lasso selection k=14: CV MSE=0.000761046
+Lasso selection k=16: CV MSE=0.000505941
+Lasso selection k=18: CV MSE=0.000252611
+Lasso selection k=20: CV MSE=0.000000000
+Permutation k=14: CV MSE=0.000749131
+Permutation k=16: CV MSE=0.000500729
+Permutation k=18: CV MSE=0.000251539
+Permutation k=20: CV MSE=0.000000000
+Histogram gradient boosting (comparison): CV MSE=0.000217179
+Locked selected linear model: OLS full
+{
+  "student_id": "5115056023",
+  "date": "2026-10-16",
+  "seed": 42,
+  "source": {
+    "title": "Flood Prediction Dataset",
+    "ref": "kamrulhasan0077/flood-prediction-dataset",
+    "version": 1,
+    "url": "https://www.kaggle.com/datasets/kamrulhasan0077/flood-prediction-dataset",
+    "license": "CC0: Public Domain",
+    "download_url": "https://www.kaggle.com/api/v1/datasets/download/kamrulhasan0077/flood-prediction-dataset?datasetVersionNumber=1",
+    "retrieved": "2026-10-16",
+    "sha256": "9cf6a2339d7c7524620f99497801c278e3c1ed0aca8d0fde22a683508fa10e8d",
+    "rows": 50000,
+    "columns": [
+      "MonsoonIntensity",
+      "TopographyDrainage",
+      "RiverManagement",
+      "Deforestation",
+      "Urbanization",
+      "ClimateChange",
+      "DamsQuality",
+      "Siltation",
+      "AgriculturalPractices",
+      "Encroachments",
+      "IneffectiveDisasterPreparedness",
+      "DrainageSystems",
+      "CoastalVulnerability",
+      "Landslides",
+      "Watersheds",
+      "DeterioratingInfrastructure",
+      "PopulationScore",
+      "WetlandLoss",
+      "InadequatePlanning",
+      "PoliticalFactors",
+      "FloodProbability"
+    ],
+    "provenance": "Uploader states external source, collection methods and geographic coverage are unknown. Synthetic-like teaching data; synthetic status cannot be independently verified."
+  },
+  "split": {
+    "development": 30000,
+    "calibration": 10000,
+    "test": 10000
+  },
+  "selection_rows_cap_per_fold": 2500,
+  "selection_sampling": "deterministic random subset of each CV training fold only; final regressors use full fold",
+  "candidate_schemes": 34,
+  "winner": "OLS full",
+  "winner_test": {
+    "k": 20.0,
+    "MAE": 1.6351919818191618e-16,
+    "MSE": 4.320461755403219e-32,
+    "RMSE": 2.0785720472004857e-16,
+    "R2": 1.0,
+    "Adjusted_R2": 1.0,
+    "outside_0_1": 0.0,
+    "rank": 3.0,
+    "CV_MSE": 1.0133668156288913e-31,
+    "CV_RMSE": 3.1833422932962947e-16
+  },
+  "interval": {
+    "method": "split conformal absolute residual",
+    "nominal_coverage": 0.95,
+    "calibration_rows": 10000,
+    "quantile_order": 9501,
+    "radius": 4.440892098500626e-16,
+    "test_coverage": 0.9807,
+    "mean_width": 8.883060953479572e-16,
+    "clipped": false,
+    "clipped_metrics": {
+      "MAE": 1.6351919818191618e-16,
+      "MSE": 4.320461755403219e-32,
+      "RMSE": 2.0785720472004857e-16,
+      "R2": 1.0,
+      "Adjusted_R2": 1.0,
+      "outside_0_1": 0
+    },
+    "assumptions": "Exchangeability of calibration and future observations; marginal, not conditional coverage; no geographical or temporal validation available."
+  },
+  "diagnostics": {
+    "scope": "OLS full model, development data only. No inferential claim for selected/penalized models.",
+    "linearity_RESET_F": null,
+    "linearity_RESET_p": null,
+    "heteroskedasticity_BP_LM": null,
+    "heteroskedasticity_BP_p": null,
+    "normality_JB": null,
+    "normality_JB_p": null,
+    "durbin_watson_original_row_order": null,
+    "independence_limit": "Row order is not temporal/spatial. DW is descriptive only; independence cannot be established.",
+    "max_VIF": 1.0010537148846161,
+    "full_design_rank": 21,
+    "condition_number_standardized": 1.047310367182855,
+    "interpretation": "Residuals are at floating-point precision. RESET/BP/JB/DW inference is not meaningful and is intentionally suppressed. VIF and rank remain descriptive. Independence cannot be established.",
+    "residual_sd": 2.0864077023760356e-16,
+    "numerical_zero_residual": true
+  },
+  "versions": {
+    "python": "3.13.15",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  },
+  "runtime_seconds": 23.193838199833408,
+  "completion": "Model analysis complete; NotebookLM and original conversation PDFs must be supplied separately."
+}

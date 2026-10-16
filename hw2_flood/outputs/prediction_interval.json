@@ -1,0 +1,19 @@
+{
+  "method": "split conformal absolute residual",
+  "nominal_coverage": 0.95,
+  "calibration_rows": 10000,
+  "quantile_order": 9501,
+  "radius": 4.440892098500626e-16,
+  "test_coverage": 0.9807,
+  "mean_width": 8.883060953479572e-16,
+  "clipped": false,
+  "clipped_metrics": {
+    "MAE": 1.6351919818191618e-16,
+    "MSE": 4.320461755403219e-32,
+    "RMSE": 2.0785720472004857e-16,
+    "R2": 1.0,
+    "Adjusted_R2": 1.0,
+    "outside_0_1": 0
+  },
+  "assumptions": "Exchangeability of calibration and future observations; marginal, not conditional coverage; no geographical or temporal validation available."
+}

@@ -1,0 +1,10 @@
+{
+  "split_disjoint": true,
+  "cv_schemes": 34,
+  "cv_fold_records": 170,
+  "feature_counts_checked": 20,
+  "web_vs_python_prediction": true,
+  "interval_coverage_recomputed": true,
+  "pdf_pages": 15,
+  "evidence_status_honest": true
+}

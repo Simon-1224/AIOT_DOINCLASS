@@ -1,0 +1,12 @@
+{
+  "model": "SelectKBest k=14",
+  "scope": "Development-only, post-selection exploratory diagnostics; p-values do not account for feature selection.",
+  "RESET_F": 2.4012875300485743,
+  "RESET_p": 0.09061865015260123,
+  "BP_LM": 18.253151821623348,
+  "BP_p": 0.19549304187940034,
+  "JB": 164.3983502524703,
+  "JB_p": 2.0014826312585328e-36,
+  "DW_row_order_descriptive_only": 2.001290823794838,
+  "independence": "No valid temporal/spatial ordering: independence cannot be established."
+}

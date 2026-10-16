@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+tmp/
+outputs/*.joblib
+evidence/gpt_conversation*.pdf
+evidence/conversation_manifest.json
+output/pdf/
+*.zip

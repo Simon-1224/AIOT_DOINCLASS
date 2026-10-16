@@ -1,0 +1,6 @@
+{
+  "winner": "OLS full",
+  "criterion": "Smallest development-only 5-fold mean MSE among linear schemes",
+  "test_used_for_selection": false,
+  "calibration_used_for_selection": false
+}

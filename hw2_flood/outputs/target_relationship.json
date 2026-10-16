@@ -1,0 +1,7 @@
+{
+  "scope": "development data only",
+  "sum_slope": 0.00499999999999994,
+  "intercept": 5.995204332975845e-15,
+  "max_abs_error": 2.55351295663786e-15,
+  "interpretation": "Target is an effectively deterministic linear sum in this downloaded version. This does not validate real-world flood prediction."
+}

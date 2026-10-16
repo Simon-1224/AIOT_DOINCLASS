@@ -1,0 +1,7 @@
+{
+  "scheme": "SelectKBest k=14",
+  "radius": 0.05450902916535694,
+  "test_coverage": 0.9458,
+  "mean_width": 0.10901805833071387,
+  "role": "illustration of information loss and a nondegenerate interval; not selected winner"
+}

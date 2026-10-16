@@ -1,0 +1,17 @@
+{
+  "scope": "OLS full model, development data only. No inferential claim for selected/penalized models.",
+  "linearity_RESET_F": null,
+  "linearity_RESET_p": null,
+  "heteroskedasticity_BP_LM": null,
+  "heteroskedasticity_BP_p": null,
+  "normality_JB": null,
+  "normality_JB_p": null,
+  "durbin_watson_original_row_order": null,
+  "independence_limit": "Row order is not temporal/spatial. DW is descriptive only; independence cannot be established.",
+  "max_VIF": 1.0010537148846161,
+  "full_design_rank": 21,
+  "condition_number_standardized": 1.047310367182855,
+  "interpretation": "Residuals are at floating-point precision. RESET/BP/JB/DW inference is not meaningful and is intentionally suppressed. VIF and rank remain descriptive. Independence cannot be established.",
+  "residual_sd": 2.0864077023760356e-16,
+  "numerical_zero_residual": true
+}
